@@ -1,0 +1,663 @@
+/************************************
+            signin Page
+************************************/
+
+body {
+    background: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    min-width: 300px;
+}
+
+.page-signin {
+    background: url(../images/signin-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.top-bar {
+    height: 18px;
+    background: #ee3a43;
+}
+
+.content {
+    min-height: 90vh;
+    padding: 15vh 0;
+}
+
+
+/**************** signin ****************/
+
+form.signin {
+    display: block;
+    min-height: 430px;
+    max-width: 360px;
+    background: #000;
+    margin: auto;
+    background: rgba(255, 255, 255, .8);
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+}
+
+form.signin header {
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+form.signin .form-content {
+    padding: 40px 30px;
+}
+
+form.signin span {
+    display: block;
+    color: #454545;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+form.signin input {
+    display: block;
+    width: 100%;
+    color: #454545;
+    font-weight: 300;
+    font-size: 20px;
+    background: rgba(255, 255, 255, .8);
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    height: 40px;
+    padding: 5px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+form.signin input:focus,
+form.signin input:hover {
+    outline: none;
+}
+
+form.signin input:focus {
+    border: 1px solid #00a4f0;
+    background: rgba(255, 255, 255, 1);
+}
+
+form.signin input[type=submit] {
+    width: 140px;
+    background: #ea3639;
+    color: #fff;
+    margin: 0 auto 30px auto;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+form.signin input[type=submit]:hover {
+    background: #00a4f0;
+}
+
+form.signin a.help {
+    text-align: center;
+    text-decoration: none;
+}
+
+form.signin a.help span {
+    color: #00a4f0;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+form.signin a.help span:hover {
+    color: #454545;
+}
+
+
+/**************** Footer ****************/
+
+.footer {
+    background: #f3f3f3 url(../images/footer-bg.png) repeat-x;
+}
+
+
+/************************************
+            welcome Page
+************************************/
+
+.header h1 {
+    margin: 0;
+}
+
+.navbar-default {
+    background: #ee3a43;
+    border: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-brand {
+    height: auto !important;
+    padding: 0 15px;
+}
+
+.navbar ul {
+    margin-top: 11px;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.navbar li img {
+    width: 25px;
+    height: auto;
+    margin-right: 8px;
+}
+
+.navbar ul.main-buttons {
+    display: inline-block;
+    padding: 0;
+}
+
+.navbar ul.main-buttons li {
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 13px;
+}
+
+.navbar ul.main-buttons li:last-child {
+    margin-right: 0;
+}
+
+.navbar ul li a:hover {
+    color: #454545;
+}
+
+.navbar ul.reg-log {
+    float: right;
+    padding: 0;
+}
+
+.navbar li.logout a {
+    margin-right: 0;
+    padding-left: 15px;
+    background: url(../images/logout-icon.png) no-repeat;
+    background-position: left;
+}
+
+.navbar li.user {
+    margin-right: 35px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.navbar li.user:before {
+    content: "";
+    display: inline-block;
+    height: 38px;
+    width: 1px;
+    background: #e51d21;
+    position: absolute;
+    left: 0;
+    top: 7px;
+}
+
+.navbar li.user:after {
+    content: "";
+    display: inline-block;
+    height: 38px;
+    width: 1px;
+    background: #f75764;
+    position: absolute;
+    left: 1px;
+    top: 7px;
+}
+
+.navbar li.user a {
+    text-decoration: none;
+    line-height: 47px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.navbar li.user img {
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    margin-right: 12px;
+    vertical-align: middle;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .2);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.navbar li.user a:hover img {
+    opacity: 0.8;
+}
+
+.welcome-content {
+    padding-bottom: 200px;
+}
+
+.welcome-content h1 {
+    color: #444444;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 200;
+    margin: 95px 0;
+}
+
+.welcome-content .item {
+    display: inline-block;
+}
+
+.welcome-content .item.push {
+    margin-right: 110px;
+}
+
+.welcome-content .item a {
+    text-decoration: none;
+    display: block;
+}
+
+.welcome-content .item img {
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease
+}
+
+.welcome-content .item h3 {
+    font-weight: 300;
+    color: #444444;
+    font-size: 24px;
+    margin: 30px 0 10px 0;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease
+}
+
+.welcome-content .item:hover h3 {
+    color: #ee3a43;
+}
+
+.welcome-content .item p {
+    font-weight: 300;
+    color: rgba(68, 68, 68, .5);
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.welcome-content .item:hover img {
+    opacity: .8;
+}
+
+
+/************************************
+            inner Page
+************************************/
+
+.page-inner h1 {
+    font-weight: 200;
+    font-size: 24px;
+    color: #444444;
+}
+
+.page-inner h2 {
+    font-weight: 200;
+    font-size: 35px;
+    color: #444444;
+    margin: 0;
+}
+
+.page-inner p {
+    font-weight: 200;
+    color: rgba(68, 68, 68, .5);
+    font-size: 16px;
+}
+
+.page-inner .page-head {
+    padding-top: 40px;
+}
+
+.page-inner .page-head .back {
+    float: left;
+    vertical-align: top;
+    color: #ee3a43;
+    font-size: 24px;
+    margin-top: 9px;
+    margin-right: 20px;
+    text-decoration: none;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease
+}
+
+.page-inner .page-head .back:hover {
+    color: #00a4f0;
+}
+
+.page-inner .page-head img {
+    width: 53px;
+    height: auto;
+    float: left;
+    display: block;
+}
+
+.page-inner .page-head h1 {
+    margin-left: 60px;
+    margin: 0 0 0 95px;
+    padding-top: 5px;
+}
+
+.page-inner .page-head p {
+    margin-left: 60px;
+    margin-left: 95px;
+}
+
+
+/****************** upload file ******************/
+
+.upload-wrapper {
+    max-width: 575px;
+    margin: 25px auto 0 auto;
+}
+
+.upload-file {
+    position: relative;
+    height: 40px;
+    width: 480px;
+    display: inline-block;
+}
+
+.upload-file input[type=file] {
+    outline: none;
+    position: relative;
+    text-align: right;
+    -moz-opacity: 0;
+    filter: alpha(opacity: 0);
+    opacity: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.upload-file .fake-file {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    line-height: 100%;
+    height: 40px;
+    outline: 0;
+}
+
+.page-inner .top-content {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.page-inner .top-content .button {
+    width: 84px;
+    height: 40px;
+    color: #fff;
+    border: 0;
+    line-height: 40px;
+    font-weight: 400;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 1px;
+}
+
+.upload-file .fake-file span.browse {
+    float: right;
+    background: #6b6262;
+    width: 84px;
+    height: 40px;
+}
+
+.upload-file .fake-file input {
+    font-size: 16px;
+    height: 40px;
+    width: 387px;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+    background: #fff;
+    padding: 5px;
+}
+
+.top-content input[type=submit] {
+    display: inline-block;
+    background: #ea3639;
+    margin-left: 5px;
+    float: right;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease
+}
+
+.top-content input[type=submit]:hover {
+    background: #00a4f0;
+}
+
+.page-inner hr {
+    margin: 30px 0;
+    height: 1px;
+    background: #e5e5e5;
+    border: 0;
+}
+
+.page-inner .bottom-content {
+    padding-bottom: 40px;
+}
+
+.page-inner .bottom-content h2 {
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.page-inner .bottom-content .item {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.page-inner .bottom-content ul {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.page-push-adv .bottom-content ul {
+    max-width: 500px;
+}
+
+.page-app-control .bottom-content ul {
+    max-width: 600px;
+}
+
+.page-inner .bottom-content .item img {
+    margin: 7px;
+}
+
+.page-inner .bottom-content .item h5 {
+    font-weight: 400;
+    color: rgba(68, 68, 68, .8);
+    margin: 0;
+}
+
+.page-inner .bottom-content .item .remove {
+    color: rgba(238, 58, 67, .8);
+    font-weight: 300;
+    cursor: pointer;
+    display: block;
+}
+
+.page-inner .bottom-content .item .remove:hover {
+    color: #00a4f0;
+}
+
+
+/************************************
+            mediaquery
+************************************/
+
+@media only screen and (max-width: 991px) {
+    .navbar-brand {
+        padding-right: 0;
+    }
+    .navbar ul.main-buttons li {
+        margin-right: 5px;
+    }
+    .navbar li.user {
+        margin-right: 9px;
+        padding-left: 9px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-brand {
+        padding: 0;
+    }
+    .navbar {
+        text-align: left;
+        padding: 0;
+    }
+    .navbar ul {
+        margin: 0;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background: none;
+    }
+    .navbar-default .navbar-toggle span,
+    .navbar-default .navbar-toggle span {
+        -webkit-transition: all .5s ease;
+        transition: all .5s ease
+    }
+    .navbar-default .navbar-toggle:focus span {
+        background: #454545;
+    }
+    .navbar-default .navbar-toggle {
+        border: 0;
+    }
+    .navbar-toggle {
+        border-radius: 0;
+        margin-top: 24px;
+        padding: 0;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+    .navbar ul.main-buttons {
+        display: block;
+        text-align: left;
+    }
+    .navbar ul.reg-log {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .navbar ul li {
+        display: block !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        height: auto !important;
+    }
+    .navbar ul li a {
+        display: block !important;
+        line-height: normal !important;
+        padding: 15px !important;
+        border-bottom: 1px solid rgba(255, 255, 255, .2);
+        border-left: 3px solid transparent
+    }
+    .navbar ul li img {
+        display: none !important;
+    }
+    .navbar li.logout a {
+        background: none;
+    }
+    .navbar-collapse {
+        padding: 0;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-top: 1px solid rgba(255, 255, 255, .4);
+        background: #ee3a43;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .welcome-content .item.push {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .welcome-content .item {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .page-inner .page-head .back {
+        margin-right: 7px;
+        margin-top: 5px;
+    }
+    .page-inner .page-head img {
+        width: 40px;
+        height: auto;
+    }
+    .page-inner .page-head h1,
+    .page-inner .page-head p {
+        margin-left: 65px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .navbar-brand > img {
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .top-content input[type="submit"] {
+        display: block;
+        margin: 10px auto 0 auto !important;
+        float: none;
+    }
+    .upload-file {
+        width: 100%;
+    }
+    .upload-file .fake-file input {
+        width: 84%;
+    }
+    .upload-file .fake-file span.browse {
+        width: 15%;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .upload-file .fake-file input {
+        width: 80%;
+    }
+    .upload-file .fake-file span.browse {
+        width: 19%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .upload-file .fake-file input {
+        width: 73%;
+    }
+    .upload-file .fake-file span.browse {
+        width: 26%;
+    }
+}

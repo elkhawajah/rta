@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Control Panel V2">
+    <title>Control Panel V2 | Push Advertisements</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.min.css">
+</head>
+
+<body>
+
+    <div class="page-push-adv page-inner">
+        <header class="header">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="signin.html"><img src="images/welcome-header-logo.png" alt="logo"></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="main-buttons">
+                            <li>
+                                <a href="push-adv.html"><img src="images/push-advertisements-icon.png" alt="push advertisements">Push Ads</a>
+                            </li>
+                            <li>
+                                <a href="app-control.html"><img src="images/application-control-icon.png" alt="application control">App Control</a>
+                            </li>
+                        </ul>
+                        <ul class="reg-log">
+                            <li class="user">
+                                <a href="#"><img src="images/amr.admin.png" alt="admin">amr.admin</a>
+                            </li>
+                            <li class="logout"><a href="signin.html">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="page-head">
+            <div class="container">
+                <a href="welcome.html" class="back">&#10094;</a>
+                <div class="head-content">
+                    <img src="images/push-advertisements-icon.png" alt="Push Advertisements">
+                    <h1>Push Advertisements</h1>
+                    <p>Manage in-app advertisements that will be shown</p>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-content text-center">
+            <div class="container">
+                <form action="push-adv.html">
+                    <div class="top-content">
+                        <h2>Add Advertisement</h2>
+                        <p>Static and video advertisements are supported</p>
+                        <div class="upload-wrapper">
+                            <div class="upload-file">
+                                <input type="file">
+                                <div class="fake-file">
+                                    <span class="button browse">Browse...</span>
+                                    <input disabled="disabled" placeholder="Browse application installer">
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                            <input type="submit" class="button upload" value="Upload">
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <hr>
+
+                    <div class="bottom-content currently-installed container">
+                        <h2>Running Advertisements</h2>
+                        <ul class="row">
+                            <li class="item col-sm-4 col-xs-12">
+                                <img src="images/adv1.png" alt="adv1">
+                                <span class="remove">Remove</span>
+                            </li>
+                            <li class="item col-sm-4 col-xs-12">
+                                <img src="images/adv2.png" alt="adv2">
+                                <span class="remove">Remove</span>
+                            </li>
+                            <li class="item col-sm-4 col-xs-12">
+                                <img src="images/adv3.png" alt="adv3">
+                                <span class="remove">Remove</span>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <img src="images/footer-logo.png" alt="govenment of dubai">
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
